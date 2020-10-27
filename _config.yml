@@ -106,9 +106,5 @@ deploy:
   type: git
   repo:
       github: git@github.com:2048gr/2048gr.github.io.git,master
-      gitee: git@gitee.com:liuhanlin-13/liuhanlin-13.git,master
-backup:
-    type: git
-    repository:
-      gitee: git@gitee.com:liuhanlin-13/liuhanlin-13.git,backup
-      github: git@github.com:2048gr/2048gr.github.io.git,backup
+      gitee: git@gitee.com:liuhanllin_13/liuhanlin_13.git,master
+
