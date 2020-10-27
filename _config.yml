@@ -5,10 +5,10 @@
 # Site
 title: 木文的博客
 subtitle: ''
-description: '记录学习的时光'
+description: '学习的记录'
 keywords:
 author: 木文
-language: chinese
+language: en
 timezone: ''
 
 # URL
@@ -98,13 +98,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo:
-      github: git@github.com:2048gr/2048gr.github.io.git,master
-      gitee: git@gitee.com:liuhanllin_13/liuhanlin_13.git,master
-
+    github: git@github.com:2048gr/2048gr.github.io.git,master
+    gitee: git@gitee.com:liuhanlin_13/liuhanlin_13.git,master
