@@ -15,7 +15,7 @@
 <meta property="og:description" content="关键词闭包 匿名（lamda，拉姆达）函数 元编程 LiveScript 、JavaScript ECMA (ek-ma) W3C  CSS（Cascading Style Sheets，层叠样式表）  SVG（Scalable Vector Graphic，可伸缩矢量图）1.0； MathML（Mathematical Markup Language，数学标记语言）1.0；SMIL（Synchr">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-11-04T02:44:55.000Z">
-<meta property="article:modified_time" content="2020-11-05T09:00:12.250Z">
+<meta property="article:modified_time" content="2020-11-05T09:13:32.203Z">
 <meta property="article:author" content="木文">
 <meta name="twitter:card" content="summary">
   
@@ -147,12 +147,14 @@
 <h6 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h6><p>使用c风格注释</p>
 <h6 id="严格模式-（strict-mode）"><a href="#严格模式-（strict-mode）" class="headerlink" title="严格模式 （strict mode）"></a>严格模式 （strict mode）</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;use strict&quot;;&#x2F;&#x2F;编译指示（pragma）</span><br></pre></td></tr></table></figure>
 
-<h5 id="关键字和保留字"><a href="#关键字和保留字" class="headerlink" title="关键字和保留字"></a>关键字和保留字</h5><h6 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h6><p>break    case    catch    continue    debugger*    default     delete    do    else</p>
-<p>finally    fot    function    if     in    instanceof    new    return    switch    this</p>
-<p>throw    try    typeof    var    void    while    with    </p>
-<h6 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h6><p>abstract    boolean    byte    char    class    const    debugger    double    enum    export    extends    final    float    goto    implements    import    </p>
-<p>int    interface    long    native    package    private     protected    public    </p>
-<p>short     static    super    synchronized    throws    transient    volatile</p>
+<h5 id="关键字和保留字"><a href="#关键字和保留字" class="headerlink" title="关键字和保留字"></a>关键字和保留字</h5><h6 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">break	case	catch	continue	debugger*	default 	delete	do	else</span><br><span class="line"></span><br><span class="line">finally	fot	function	if	 in	instanceof	new	return	switch	this</span><br><span class="line"></span><br><span class="line">throw	try	typeof	var	void	while	with	</span><br></pre></td></tr></table></figure>
+
+
+
+<h6 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">abstract	boolean	byte	char	class	const	debugger	double	enum	export	extends	final	float	goto	implements	import	</span><br><span class="line"></span><br><span class="line">int	interface	long	native	package	private	 protected	public	</span><br><span class="line"></span><br><span class="line">short	 static	super	synchronized	throws	transient	volatile</span><br></pre></td></tr></table></figure>
+
+
+
 <h5 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h5><p>ECMAScript的变量是松散类型的，可以保存任何类型的数据。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var message；</span><br><span class="line">var message &#x3D; “hi”;</span><br><span class="line">var message &#x3D; &quot;hi&quot;;</span><br><span class="line">message &#x3D; 100; &#x2F;&#x2F; 有效，但不推荐</span><br></pre></td></tr></table></figure>
 
